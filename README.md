@@ -16,8 +16,8 @@
 ###Homer: 149.89.150.100
 ###IPv4: 4 byte address of the form:
 ###[0-255][0-255][0-255][0-255]
-###
-###
+###Each group is called an ocetet
+###At most there are 2^32, or ~4.3 billion IPv4 addresses
 ###
 ###
 ###
