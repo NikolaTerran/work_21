@@ -18,16 +18,15 @@
 ###[0-255][0-255][0-255][0-255]
 ###Each group is called an ocetet
 ###At most there are 2^32, or ~4.3 billion IPv4 addresses
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
+###IPv6: 16 byte addresses of the form:
+###[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]	
+###Each group is known as a hextet (this is not as standard as octet).
+###Leading 0s are ignored.
+###Any number of consecutive all 0 hextets can be replaced with ::
+###	0000 : 0000 : 0000 : 0000 : 004f : 13c2 : 0009 : a2d2
+###	:: 4f : 13c2 : 9 : a2d2
+###IPv4 Addresses can be represented as 5 0-hextets, 1 ffff hextet, and the IP v4 address 
+###149.89.150.100 -> :: ffff : 149.89.150.100
 ###
 ###
 ###
